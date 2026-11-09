@@ -1,0 +1,4 @@
+This is a reference architecture scaffold, not a turnkey production deployment.
+The AKS module source is intentionally a placeholder and must be implemented/reviewed by the team.
+Configure backend arguments, provider authentication, actual module implementations, and state keys.
+Do not apply without reviewing plans and validating CIDRs, SKUs, provider versions, and security controls.

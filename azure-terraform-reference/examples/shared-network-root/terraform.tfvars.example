@@ -1,0 +1,17 @@
+subscription_id     = "00000000-0000-0000-0000-000000000000"
+location            = "westus2"
+resource_group_name = "rg-dev-network"
+vnet_name            = "vnet-dev-shared"
+address_space        = ["10.20.0.0/16"]
+
+subnets = {
+  shared-services = {
+    address_prefixes = ["10.20.1.0/24"]
+  }
+  app1 = {
+    address_prefixes = ["10.20.2.0/24"]
+  }
+  app2 = {
+    address_prefixes = ["10.20.3.0/24"]
+  }
+}
